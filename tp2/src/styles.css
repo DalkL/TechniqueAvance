@@ -1,0 +1,159 @@
+body{
+    background-color: var(--bs-black);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    transition:ease-in 0.2s;
+}
+
+dialog:modal{
+    height:30vh;
+}
+
+dialog::backdrop{
+    background-color: rgba(37, 37, 37, 0.7);
+}
+
+a:hover{
+    color: inherit;
+}
+
+.logo-text{
+    color: var(--bs-white);
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+}
+
+.card-header{
+    border-bottom: none;
+    background-color: unset;
+    justify-content: space-between;
+}
+
+.card-header .svg{
+    
+    
+}
+
+.main-nav{
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    color: var(--bs-white);
+}
+
+.main-nav a:hover{
+    color: var(--bs-yellow);
+}
+
+.main-nav a+a{
+    margin-left: 25px;
+}
+
+.searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#searchQueryInput {
+width: 100%;
+height: 2rem;
+background: #f5f5f5;
+outline: none;
+border: none;
+border-radius: 1.625rem;
+padding: 0 3.5rem 0 1.5rem;
+font-size: 1rem;
+font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#searchQuerySubmit {
+width: 3.5rem;
+height: 2.8rem;
+margin-left: -3.5rem;
+background: none;
+border: none;
+outline: none;
+}
+
+#searchQuerySubmit:hover {
+cursor: pointer;
+}
+
+#homeLeftBlue{
+    position: absolute;
+    top: 380px;
+    left: 0;
+    width: 80%;
+}
+
+#homeRightRed{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 80%;
+}
+
+.home-header{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-text-button{
+    max-width: 700px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.header-text-button p{
+    margin: 2rem;
+    font-family: 'Press Start 2P', cursive;
+    max-width: 500px;
+}
+
+.header-text-button a{
+    background-color: #000;
+    border: 5px solid #fff;
+    color:  var(--bs-white);
+    box-shadow: 5px 5px 0 5px #000;
+    margin-bottom: 2rem;
+}
+
+footer{
+    height: 45vh;
+    background-color: var(--bs-black);
+}
+
+.box1{
+    z-index: 5;
+    background-color: var(--bs-yellow);
+    box-shadow: 4px 4px 0 10px #000;
+}
+
+.card-body{
+    height: 160px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.card{
+    background-color: rgba(39, 39, 39, 0.8);
+    color: var(--bs-white);
+    border-color: var(--bs-white);
+    transition: 0.2s ease-in;
+}
+
+a:hover .card{
+    background-color: var(--bs-yellow);
+    color: var(--bs-black);
+    border-color: var(--bs-white);
+}

@@ -1,0 +1,46 @@
+{
+  "produits": [
+    {
+      "id": 7,
+      "nom": "CUM69",
+      "description": "Wow un ballon de basket cool!",
+      "categorie": "Sport",
+      "prix": 45
+    },
+    {
+      "id": 8,
+      "nom": "Ballon de soccer",
+      "description": "Wow une ballon de soccer superb!",
+      "categorie": "Sport",
+      "prix": 35
+    },
+    {
+      "id": 3,
+      "nom": "Ballon de balls",
+      "description": "Wow un ballon de basket cool!",
+      "categorie": "Sport",
+      "prix": 45
+    },
+    {
+      "id": 4,
+      "nom": "Ballon de cool",
+      "description": "Wow une ballon de soccer superb!",
+      "categorie": "Sport",
+      "prix": 35
+    },
+    {
+      "id": 5,
+      "nom": "PS6",
+      "description": "Wow une PS5 incroyable!",
+      "categorie": "Jeux",
+      "prix": 799
+    },
+    {
+      "id": 6,
+      "nom": "Switch3",
+      "description": "Wow une Switch cool!",
+      "categorie": "Jeux",
+      "prix": 399
+    }
+  ]
+}
